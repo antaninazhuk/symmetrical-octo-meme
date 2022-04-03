@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header,
+footer {
+    background-color: aqua;
+    padding: 50px 0 50px;
+}
+
+nav {
+    text-align: center;
+}
+
+footer {
+    text-align: right;
+}
+
+ul li {
+    display: inline-block
+}
+
+.services {
+    color: beige;
+    background-color: rgba(165, 42, 42, 0.363);
+    padding: 20px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    z-index: -10;
+}
+
+.team {
+    background-color: rgba(255, 255, 0, 0.432);
+    position: relative;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+main {
+    padding: 170px 0 50px;
+}
+
+.popup {
+    width: 400px;
+    padding: 20px;
+    background-color: yellow;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 10px #000;
+}
+
+.krest {
+    color: #fff;
+    background-color: red;
+    padding: 2px 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 10;
+}

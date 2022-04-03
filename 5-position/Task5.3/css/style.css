@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    position: relative;
+}
+
+body {
+    background-color: #7CDAEF;
+    font-family: 'Play', sans-serif;
+    color: #FFFFFF;
+}
+
+.blue {
+    background-color: rgba(14, 73, 126, 0.7);
+    width: 900px;
+    padding: 99px 78px 176px;
+    margin-top: 104px;
+    position: relative;
+    right: 78px;
+    z-index: 10;
+}
+
+.cloud2 {
+    position: absolute;
+    top: -59px;
+    right: -228px;
+    z-index: 12;
+}
+
+.cloud3 {
+    position: absolute;
+    top: 179px;
+    left: -288px;
+    z-index: 5;
+}
+
+.cloud4 {
+    position: absolute;
+    top: 450px;
+    right: -278px;
+    z-index: 5;
+}
+
+.glass {
+    height: 132px;
+    background-image: url(../img/grass.png);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 15;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 24px;
+}
+
+.blue h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    margin-top: 36px;
+    margin-bottom: 51px;
+}
+
+.blue p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 26px;
+}
+
+.blue p:nth-child(2) {
+    margin-top: 0;
+}
